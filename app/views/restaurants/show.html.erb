@@ -1,2 +1,3 @@
-<h1>Restaurants#show</h1>
-<p>Find me in app/views/restaurants/show.html.erb</p>
+<h1><%= @restaurant.name %></h1>
+<p><%= @restaurant.url %></p>
+<p>Open daily from: <%= @restaurant.open_time %>, until <%= @restaurant.close_time %></p>
